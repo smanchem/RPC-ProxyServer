@@ -39,11 +39,11 @@ void main (){
 */
 
 
-char *getContent(void) {
+char *getContent(char *url) {
   CURL *curl;
   CURLcode res;
   struct wd_in wdi;
-  char *url = "http://www.google.com";
+  //char *url = "http://www.google.com";
 
   memset(&wdi, 0, sizeof(wdi));
 
@@ -81,7 +81,8 @@ char *getContent(void) {
      of the data available, so do whatever. */
 
   /* Write the content to stdout. */
-  write(STDOUT_FILENO, wdi.data, wdi.len);
+  //write(STDOUT_FILENO, wdi.data, wdi.len);
+  printf ("Fetched Content of URL: %s\n", url);
 
   /* cleanup wdi.data buffer. */
   //free(wdi.data);

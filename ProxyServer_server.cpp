@@ -10,7 +10,7 @@
 #include <iostream>
 #include <string>
 #include <cstring>
-#include "getContent.c"
+#include "CacheDataStructures.cpp"
 
 using namespace ::apache::thrift;
 using namespace ::apache::thrift::protocol;
@@ -37,11 +37,12 @@ class ProxyServerHandler : virtual public ProxyServerIf {
   void echo(std::string& _return, const std::string& str) {
     // Your implementation goes here
     cout << "echo: " << str << endl;
-    char *body = getContent();
+    Cache pageCache;
+    _return = pageCache.search_page(str);
     //printf (" Return of getContent is %d\n", i);
-    std::string s(body);
-    _return = s;
-    free(body);
+    //std::string s(body);
+    //_return = s;
+    //free(body);
   }
 
 };
