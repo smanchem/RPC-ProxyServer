@@ -12,9 +12,9 @@ using namespace std;
 
 #define MAX_SIZE 250*1024
 
-#define PRP 3
+#define PRP 1
 
-#define FIFO
+// #define FIFO
 #define MAXS
 
 class Page {
@@ -78,11 +78,12 @@ printf("url is mapped to index\n");
             vector_indices.push(cache_data.size()-1);
 #endif
 
-#ifdef MAXS            
+#ifdef MAXS         
             size_index pq_entry;
             pq_entry.page_size = page.size_of_page;
             pq_entry.index = (int) (cache_data.size() - 1);
             pq_indices.push(pq_entry);
+printf("Pushing into PQ\n");
 #endif
 
             size_of_cache = size_of_cache + page.size_of_page;
@@ -121,6 +122,7 @@ printf("Pages removed successfully\n");
             size_index pq_entry;
             pq_entry.page_size = page.size_of_page;
             pq_entry.index = cache_data.size() - 1;
+printf("Pushing into PQ\n");
             pq_indices.push(pq_entry);
 #endif
 
@@ -172,7 +174,7 @@ cout << "Page Removed" << endl;
     
     std::list<int> pages_to_remove (int i, int size_of_page) {
         std::list<int> pages_to_remove;
-        int space_freed = 0;
+        int space_freed = MAX_SIZE - size_of_cache;
         if (i == 1) {
             // FIFO
 #ifdef FIFO
@@ -202,7 +204,9 @@ printf("Removed from Queue\n");
                 printf(" In MAXS\n");
                 space_freed = space_freed + pq_indices.top().page_size;
                 pages_to_remove.push_back(pq_indices.top().index);
+printf("Space freed is: %d\n", space_freed);
                 pq_indices.pop();
+printf("Popped from PQ\n");
             } while (space_freed < size_of_page);
 #endif
         }
