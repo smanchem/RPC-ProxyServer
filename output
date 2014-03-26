@@ -3,7 +3,7 @@ echo: http://www.thehindu.com
 Fetched Content of URL: http://www.thehindu.com
 getContent successfully returned
 Step 1
-Size of Body: 133035
+Size of Body: 133114
 page created successfully
 page added to Cache successfully
 Index in Cache is 0
@@ -16,12 +16,15 @@ echo: http://www.bbc.com/news/
 Fetched Content of URL: http://www.bbc.com/news/
 getContent successfully returned
 Step 1
-Size of Body: 169546
+Size of Body: 169846
 page created successfully
-page added to Cache successfully
-Index in Cache is 1
-url is mapped to index
-Step 2
+here
+In Random
+In Random
+Pages to remove determined successfully
+Page Removed
+Page Removed
+Pages removed successfully
 Step 3
 Page sent to client
 ping
@@ -29,7 +32,7 @@ echo: http://www.theguardian.com/us
 Fetched Content of URL: http://www.theguardian.com/us
 getContent successfully returned
 Step 1
-Size of Body: 221745
+Size of Body: 221635
 page created successfully
 page added to Cache successfully
 Index in Cache is 2
@@ -42,12 +45,13 @@ echo: http://www.forbes.com
 Fetched Content of URL: http://www.forbes.com
 getContent successfully returned
 Step 1
-Size of Body: 107890
+Size of Body: 107637
 page created successfully
-page added to Cache successfully
-Index in Cache is 3
-url is mapped to index
-Step 2
+here
+In Random
+Pages to remove determined successfully
+Page Removed
+Pages removed successfully
 Step 3
 Page sent to client
 ping
@@ -55,6 +59,16 @@ echo: http://www.forbes.com
 Page sent to client
 ping
 echo: http://www.theguardian.com/us
+Fetched Content of URL: http://www.theguardian.com/us
+getContent successfully returned
+Step 1
+Size of Body: 221635
+page created successfully
+page added to Cache successfully
+Index in Cache is 4
+url is mapped to index
+Step 2
+Step 3
 Page sent to client
 ping
 echo: http://www.bbc.com/news/
@@ -67,38 +81,86 @@ echo: http://www.theguardian.com/us
 Page sent to client
 ping
 echo: http://www.thehindu.com
+Fetched Content of URL: http://www.thehindu.com
+getContent successfully returned
+Step 1
+Size of Body: 133114
+page created successfully
+here
+In Random
+In Random
+In Random
+Pages to remove determined successfully
+Page Removed
+Page Removed
+Page Removed
+Pages removed successfully
+Step 3
 Page sent to client
 ping
 echo: http://www.nytimes.com
 Fetched Content of URL: http://www.nytimes.com
 getContent successfully returned
 Step 1
-Size of Body: 198326
+Size of Body: 200186
 page created successfully
 page added to Cache successfully
-Index in Cache is 4
+Index in Cache is 6
 url is mapped to index
 Step 2
 Step 3
 Page sent to client
 ping
 echo: http://www.theguardian.com/us
+Fetched Content of URL: http://www.theguardian.com/us
+getContent successfully returned
+Step 1
+Size of Body: 221635
+page created successfully
+here
+In Random
+In Random
+In Random
+In Random
+In Random
+In Random
+In Random
+Pages to remove determined successfully
+Page Removed
+Page Removed
+Page Removed
+Page Removed
+Page Removed
+Page Removed
+Page Removed
+Pages removed successfully
+Step 3
 Page sent to client
 ping
 echo: http://www.telegraph.co.uk
 Fetched Content of URL: http://www.telegraph.co.uk
 getContent successfully returned
 Step 1
-Size of Body: 174498
+Size of Body: 174310
 page created successfully
 page added to Cache successfully
-Index in Cache is 5
+Index in Cache is 8
 url is mapped to index
 Step 2
 Step 3
 Page sent to client
 ping
 echo: http://www.nytimes.com
+Fetched Content of URL: http://www.nytimes.com
+getContent successfully returned
+Step 1
+Size of Body: 199696
+page created successfully
+page added to Cache successfully
+Index in Cache is 9
+url is mapped to index
+Step 2
+Step 3
 Page sent to client
 ping
 echo: http://www.google.com
@@ -108,7 +170,7 @@ Step 1
 Size of Body: 65547
 page created successfully
 page added to Cache successfully
-Index in Cache is 6
+Index in Cache is 10
 url is mapped to index
 Step 2
 Step 3
@@ -118,12 +180,15 @@ echo: http://www.youtube.com
 Fetched Content of URL: http://www.youtube.com
 getContent successfully returned
 Step 1
-Size of Body: 223011
+Size of Body: 223907
 page created successfully
-page added to Cache successfully
-Index in Cache is 7
-url is mapped to index
-Step 2
+here
+In Random
+In Random
+Pages to remove determined successfully
+Page Removed
+Page Removed
+Pages removed successfully
 Step 3
 Page sent to client
 ping
@@ -140,10 +205,10 @@ echo: http://www.eenadu.net
 Fetched Content of URL: http://www.eenadu.net
 getContent successfully returned
 Step 1
-Size of Body: 170102
+Size of Body: 169892
 page created successfully
 page added to Cache successfully
-Index in Cache is 8
+Index in Cache is 12
 url is mapped to index
 Step 2
 Step 3
@@ -153,6 +218,16 @@ echo: http://www.theguardian.com/us
 Page sent to client
 ping
 echo: http://www.google.com
+Fetched Content of URL: http://www.google.com
+getContent successfully returned
+Step 1
+Size of Body: 59760
+page created successfully
+page added to Cache successfully
+Index in Cache is 13
+url is mapped to index
+Step 2
+Step 3
 Page sent to client
 ping
 echo: http://www.telegraph.co.uk
@@ -162,9 +237,30 @@ echo: http://www.theguardian.com/us
 Page sent to client
 ping
 echo: http://www.forbes.com
+Fetched Content of URL: http://www.forbes.com
+getContent successfully returned
+Step 1
+Size of Body: 107776
+page created successfully
+here
+In Random
+Pages to remove determined successfully
+Page Removed
+Pages removed successfully
+Step 3
 Page sent to client
 ping
 echo: http://www.nytimes.com
+Fetched Content of URL: http://www.nytimes.com
+getContent successfully returned
+Step 1
+Size of Body: 200354
+page created successfully
+page added to Cache successfully
+Index in Cache is 15
+url is mapped to index
+Step 2
+Step 3
 Page sent to client
 ping
 echo: http://www.youtube.com
@@ -207,15 +303,54 @@ echo: http://www.eenadu.net
 Page sent to client
 ping
 echo: http://www.theguardian.com/us
+Fetched Content of URL: http://www.theguardian.com/us
+getContent successfully returned
+Step 1
+Size of Body: 221645
+page created successfully
+here
+In Random
+In Random
+In Random
+In Random
+In Random
+Pages to remove determined successfully
+Page Removed
+Page Removed
+Page Removed
+Page Removed
+Page Removed
+Pages removed successfully
+Step 3
 Page sent to client
 ping
 echo: http://www.forbes.com
 Page sent to client
 ping
 echo: http://www.nytimes.com
+Fetched Content of URL: http://www.nytimes.com
+getContent successfully returned
+Step 1
+Size of Body: 200283
+page created successfully
+page added to Cache successfully
+Index in Cache is 17
+url is mapped to index
+Step 2
+Step 3
 Page sent to client
 ping
 echo: http://www.thehindu.com
+Fetched Content of URL: http://www.thehindu.com
+getContent successfully returned
+Step 1
+Size of Body: 133114
+page created successfully
+page added to Cache successfully
+Index in Cache is 18
+url is mapped to index
+Step 2
+Step 3
 Page sent to client
 ping
 echo: http://www.facebook.com
@@ -225,7 +360,7 @@ Step 1
 Size of Body: 6
 page created successfully
 page added to Cache successfully
-Index in Cache is 9
+Index in Cache is 19
 url is mapped to index
 Step 2
 Step 3

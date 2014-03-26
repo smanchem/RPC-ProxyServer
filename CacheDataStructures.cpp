@@ -10,7 +10,7 @@
 
 using namespace std;
 
-#define MAX_SIZE 220*1024
+#define MAX_SIZE 250*1024
 
 #define PRP 2
 
@@ -50,6 +50,7 @@ printf("Index in Cache is %d\n", cache_data.size()-1);
             url_to_index[page.url] = cache_data.size()-1;
 printf("url is mapped to index\n");
             vector_indices.push(cache_data.size()-1);
+            size_of_cache = size_of_cache + page.size_of_page;
 cout << "Step 2" << endl;
         }
         else {
@@ -69,10 +70,11 @@ printf("Pages to remove determined successfully\n");
                 freed_size = freed_size + remove_page(*it);
             }
 printf("Pages removed successfully\n");
-            if (freed_size < page.size_of_page) {
-                cout << "Cache Capacity insufficient" << endl;
+            /*if (freed_size < page.size_of_page) {
+                cout << "Cache Capacity insufficient. Freed Size is " << freed_size << endl;
                 exit(0);
-            }
+            }*/
+
             // Add Page to Vector
             cache_data.push_back(page);
             // Add Page to URL-Index Map
@@ -113,6 +115,7 @@ cout << "Step 3" << endl;
 
     int remove_page (int index) {
         int size_freed = cache_data[index].size_of_page;
+        size_of_cache = size_of_cache - size_freed;
 
         // Remove from Map
         url_to_index.erase(cache_data[index].url);
@@ -150,7 +153,7 @@ printf("Removed from Queue\n");
         } else if (i == 2) {
             // RANDOM
             srand(time(NULL));
-            int size = cache_data.size()-1;
+            int size = cache_data.size();
             do {
                 printf("In Random\n");
                 int i = rand() % size;
