@@ -27,6 +27,11 @@ class ProxyServerHandler : virtual public ProxyServerIf {
     printf("ping\n");
   }
 
+  void echo(std::string& _return, const std::string& str) {
+    // Your implementation goes here
+    printf("echo\n");
+  }
+
 };
 
 int main(int argc, char **argv) {

@@ -7,6 +7,9 @@
 #include <thrift/transport/TServerSocket.h>
 #include <thrift/transport/TBufferTransports.h>
 
+#include <iostream>
+#include <string>
+
 using namespace ::apache::thrift;
 using namespace ::apache::thrift::protocol;
 using namespace ::apache::thrift::transport;
@@ -15,6 +18,8 @@ using namespace ::apache::thrift::server;
 using boost::shared_ptr;
 
 using namespace  ::Test;
+
+using namespace std;
 
 class ProxyServerHandler : virtual public ProxyServerIf {
  public:
@@ -25,6 +30,13 @@ class ProxyServerHandler : virtual public ProxyServerIf {
   int32_t ping() {
     // Your implementation goes here
     printf("ping\n");
+  }
+
+  void echo(std::string& _return, const std::string& str) {
+    // Your implementation goes here
+    //printf("echo: %s \n", str);
+    cout << "echo: " << str << endl;
+    _return = str;
   }
 
 };

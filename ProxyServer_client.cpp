@@ -4,9 +4,15 @@
     #include <transport/TBufferTransports.h>
     #include <protocol/TBinaryProtocol.h>
 
+    #include <iostream>
+    #include <string>
+
+
     using namespace apache::thrift;
     using namespace apache::thrift::protocol;
     using namespace apache::thrift::transport;
+
+    using namespace std;
 
    using namespace Test;
 
@@ -18,6 +24,9 @@
      ProxyServerClient client(protocol);
      transport->open();
      client.ping();
+     
+     string str;
+     client.echo(str, "Sandeep Manchem");
      transport->close();
 
      return 0;
