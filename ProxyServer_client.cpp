@@ -26,7 +26,8 @@
      client.ping();
      
      string str;
-     client.echo(str, "Sandeep Manchem");
+     client.echo(str, "http://www.google.com");
+     cout << str << endl;
      transport->close();
 
      return 0;

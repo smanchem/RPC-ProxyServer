@@ -9,6 +9,8 @@
 
 #include <iostream>
 #include <string>
+#include <cstring>
+#include "getContent.c"
 
 using namespace ::apache::thrift;
 using namespace ::apache::thrift::protocol;
@@ -34,9 +36,12 @@ class ProxyServerHandler : virtual public ProxyServerIf {
 
   void echo(std::string& _return, const std::string& str) {
     // Your implementation goes here
-    //printf("echo: %s \n", str);
     cout << "echo: " << str << endl;
-    _return = str;
+    char *body = getContent();
+    //printf (" Return of getContent is %d\n", i);
+    std::string s(body);
+    _return = s;
+    free(body);
   }
 
 };

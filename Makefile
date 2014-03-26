@@ -14,7 +14,7 @@ all: proxyServer_server proxyServer_client
 	$(CXX) -Wall -DHAVE_INTTYPES_H -DHAVE_NETINET_IN_H $(INC) -c $< -o $@
 
 proxyServer_server: ProxyServer_server.o $(GEN_OBJ)
-	$(CXX) $^ -o $@ -L/usr/local/lib -lthrift 
+	$(CXX) $^ -o $@ -L/usr/local/lib -lthrift -L/usr/local/lib -lcurl
 
 proxyServer_client: ProxyServer_client.o $(GEN_OBJ)
 	$(CXX) $^ -o $@ -L/usr/local/lib -lthrift 
