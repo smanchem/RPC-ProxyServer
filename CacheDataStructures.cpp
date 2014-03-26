@@ -128,12 +128,13 @@ printf("Pages removed successfully\n");
         return cache_data.size()-1;
     }
 
+    /* 
+    search the map for url and get the index in vector.
+    fetch the data from vector using the index.
+    post the data to client.
+    if not in the cache then fetch using Curl and post to client
+    and add to cache. */
     string search_page (string url){
-        // search the hash map for url and get the index in vector.
-        // fetch the data from vector using the index.
-        // post the data to client
-        // if not in the cache then fetch using Curl and post to client
-        //    and add to cache.
         std::map<string, int>::iterator it;
         if ((it = url_to_index.find(url)) != url_to_index.end()) {
             return cache_data[it->second].data;
@@ -145,13 +146,11 @@ printf("Pages removed successfully\n");
             body_str = getContent(url_str);
 printf("getContent successfully returned\n");
             string body(body_str);
-cout << "Step 1" << endl;
 printf("Size of Body: %d\n", (int)body.size());
             // Add Page to Cache and update Queue
             Page page(url, body, (int)body.size());
 printf("page created successfully\n");
             add_page (page);
-cout << "Step 3" << endl;
             return body;
         }            
     }
@@ -172,13 +171,6 @@ cout << "Page Removed" << endl;
     }
     
     std::list<int> pages_to_remove (int i, int size_of_page) {
-        // For FIFO - Queue
-        //  Have a global variable of size initialized to zero.
-            //  Fetch size of topmost page and then remove topmost page.
-           //  global_size = global_size + size_of_topmost_page; -- do this till global_size >= size_of_page
-       // For Random - Queue
-            // Generate a random index within the range of vector indices and remove that page. Check size freed and size requried.
-        // For LRU - Priority Queue
         std::list<int> pages_to_remove;
         int space_freed = 0;
         if (i == 1) {
@@ -186,8 +178,6 @@ cout << "Page Removed" << endl;
 #ifdef FIFO
             do{
 printf("Trying to free space\n");
-printf("Index of front of queue is: %d\n", vector_indices.front());
-
                 space_freed = space_freed + cache_data[vector_indices.front()].size_of_page;
                 pages_to_remove.push_back(vector_indices.front());
 printf("Added to Paged_To_Remove List\n");
