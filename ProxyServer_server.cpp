@@ -23,6 +23,8 @@ using namespace  ::Test;
 
 using namespace std;
 
+#define CACHING
+
 class ProxyServerHandler : virtual public ProxyServerIf {
  public:
   Cache pageCache;
@@ -38,12 +40,20 @@ class ProxyServerHandler : virtual public ProxyServerIf {
   void echo(std::string& _return, const std::string& str) {
     // Your implementation goes here
     cout << "echo: " << str << endl;
+
+#ifdef CACHING
     _return = pageCache.search_page(str);
     printf("Page sent to client\n");
-    //printf (" Return of getContent is %d\n", i);
-    //std::string s(body);
-    //_return = s;
-    //free(body);
+    return;
+#endif
+    char *url = new char[str.size() + 1];
+    std::copy(str.begin(), str.end(), url);
+    url[str.size()] = '\0';
+    char *body = getContent(url); 
+    std::string s(body);
+    _return = s;
+    free(body);
+    return;
   }
 
 };

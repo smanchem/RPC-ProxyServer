@@ -12,7 +12,10 @@ using namespace std;
 
 #define MAX_SIZE 250*1024
 
-#define PRP 2
+#define PRP 3
+
+#define FIFO
+#define MAXS
 
 class Page {
     public:
@@ -27,34 +30,66 @@ class Page {
     }
 
     public: Page () {
-
     }
 
-    public: ~Page (){
-    
+    public: ~Page (){ 
     }
 };
+
+#ifdef MAXS
+typedef struct page_size_index {
+    int page_size;
+    int index;
+} size_index;
+
+class ComparePages {
+    public:
+        bool operator () (size_index s1, size_index s2){
+            if (s1.page_size >= s2.page_size)
+                return true;
+            else false;
+        }
+};
+#endif
 
 class Cache {
     public:
     std::vector<Page> cache_data;
     int size_of_cache = 0;
+
+#ifdef FIFO
     std::queue<int> vector_indices;
+#endif
+
     std::map<string, int> url_to_index;
+
+#ifdef MAXS
+    std::priority_queue<size_index, vector<size_index>, ComparePages> pq_indices;
+#endif
 
     int add_page (Page page) {
         if (size_of_cache + page.size_of_page <= MAX_SIZE){
             cache_data.push_back(page);
 printf("page added to Cache successfully\n");
-printf("Index in Cache is %d\n", cache_data.size()-1);
+printf("Index in Cache is %d\n", (int)(cache_data.size()-1));
             url_to_index[page.url] = cache_data.size()-1;
 printf("url is mapped to index\n");
+#ifdef FIFO
             vector_indices.push(cache_data.size()-1);
+#endif
+
+#ifdef MAXS            
+            size_index pq_entry;
+            pq_entry.page_size = page.size_of_page;
+            pq_entry.index = (int) (cache_data.size() - 1);
+            pq_indices.push(pq_entry);
+#endif
+
             size_of_cache = size_of_cache + page.size_of_page;
 cout << "Step 2" << endl;
         }
         else {
-printf ("here\n");
+printf ("No free space. Need to remove some pages from Cache.\n");
             /* Get list of indices of pages to be removed based on
                the Page Replacement Policy. */
             if (page.size_of_page > MAX_SIZE) {
@@ -70,17 +105,25 @@ printf("Pages to remove determined successfully\n");
                 freed_size = freed_size + remove_page(*it);
             }
 printf("Pages removed successfully\n");
-            /*if (freed_size < page.size_of_page) {
-                cout << "Cache Capacity insufficient. Freed Size is " << freed_size << endl;
-                exit(0);
-            }*/
 
             // Add Page to Vector
             cache_data.push_back(page);
             // Add Page to URL-Index Map
             url_to_index[page.url] = cache_data.size() - 1;
+
+#ifdef FIFO
             // Add Page to Queue
             vector_indices.push(cache_data.size()-1);
+#endif
+
+#ifdef MAXS
+            // Add Page to Priority Queue
+            size_index pq_entry;
+            pq_entry.page_size = page.size_of_page;
+            pq_entry.index = cache_data.size() - 1;
+            pq_indices.push(pq_entry);
+#endif
+
         }
         return cache_data.size()-1;
     }
@@ -139,7 +182,8 @@ cout << "Page Removed" << endl;
         std::list<int> pages_to_remove;
         int space_freed = 0;
         if (i == 1) {
-            // FIFO        
+            // FIFO
+#ifdef FIFO
             do{
 printf("Trying to free space\n");
 printf("Index of front of queue is: %d\n", vector_indices.front());
@@ -150,6 +194,7 @@ printf("Added to Paged_To_Remove List\n");
                 vector_indices.pop();
 printf("Removed from Queue\n");
             } while (space_freed < size_of_page);
+#endif
         } else if (i == 2) {
             // RANDOM
             srand(time(NULL));
@@ -160,7 +205,17 @@ printf("Removed from Queue\n");
                 space_freed = space_freed + cache_data[i].size_of_page;
                 pages_to_remove.push_back(i);
             } while (space_freed < size_of_page);
-        }         
+        } else if (i == 3) {
+            // MAXS - Remove the largest entry first.
+#ifdef MAXS
+            do {
+                printf(" In MAXS\n");
+                space_freed = space_freed + pq_indices.top().page_size;
+                pages_to_remove.push_back(pq_indices.top().index);
+                pq_indices.pop();
+            } while (space_freed < size_of_page);
+#endif
+        }
         return pages_to_remove;
         
     }
