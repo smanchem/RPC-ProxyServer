@@ -10,9 +10,9 @@
 
 using namespace std;
 
-#define MAX_SIZE 10*1024*1024
+#define MAX_SIZE 220*1024
 
-#define PRP 1
+#define PRP 2
 
 class Page {
     public:
@@ -46,6 +46,7 @@ class Cache {
         if (size_of_cache + page.size_of_page <= MAX_SIZE){
             cache_data.push_back(page);
 printf("page added to Cache successfully\n");
+printf("Index in Cache is %d\n", cache_data.size()-1);
             url_to_index[page.url] = cache_data.size()-1;
 printf("url is mapped to index\n");
             vector_indices.push(cache_data.size()-1);
@@ -55,15 +56,21 @@ cout << "Step 2" << endl;
 printf ("here\n");
             /* Get list of indices of pages to be removed based on
                the Page Replacement Policy. */
+            if (page.size_of_page > MAX_SIZE) {
+                cout << "Cache Capacity insufficient. Cannot fetch WebPage" << endl;
+                exit(0);
+            }
             std::list<int> list_of_indices = pages_to_remove(PRP, page.size_of_page);
+printf("Pages to remove determined successfully\n");
             int freed_size = 0;
 
             // Remove pages from cache that were selected to be replaced.
             for (std::list<int>::iterator it = list_of_indices.begin(); it !=list_of_indices.end(); it++) {
                 freed_size = freed_size + remove_page(*it);
             }
+printf("Pages removed successfully\n");
             if (freed_size < page.size_of_page) {
-                cout << "Something went wrong" << endl;
+                cout << "Cache Capacity insufficient" << endl;
                 exit(0);
             }
             // Add Page to Vector
@@ -114,7 +121,7 @@ cout << "Step 3" << endl;
         cache_data[index].data = '\0';
         cache_data[index].url = '\0';
         cache_data[index].size_of_page = 0;
-    
+cout << "Page Removed" << endl;    
         return size_freed;
     }
     
@@ -129,18 +136,23 @@ cout << "Step 3" << endl;
         std::list<int> pages_to_remove;
         int space_freed = 0;
         if (i == 1) {
-            // FIFO
+            // FIFO        
             do{
+printf("Trying to free space\n");
+printf("Index of front of queue is: %d\n", vector_indices.front());
+
                 space_freed = space_freed + cache_data[vector_indices.front()].size_of_page;
                 pages_to_remove.push_back(vector_indices.front());
+printf("Added to Paged_To_Remove List\n");
                 vector_indices.pop();
-
+printf("Removed from Queue\n");
             } while (space_freed < size_of_page);
         } else if (i == 2) {
             // RANDOM
             srand(time(NULL));
             int size = cache_data.size()-1;
             do {
+                printf("In Random\n");
                 int i = rand() % size;
                 space_freed = space_freed + cache_data[i].size_of_page;
                 pages_to_remove.push_back(i);

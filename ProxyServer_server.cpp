@@ -25,6 +25,7 @@ using namespace std;
 
 class ProxyServerHandler : virtual public ProxyServerIf {
  public:
+  Cache pageCache;
   ProxyServerHandler() {
     // Your initialization goes here
   }
@@ -37,8 +38,8 @@ class ProxyServerHandler : virtual public ProxyServerIf {
   void echo(std::string& _return, const std::string& str) {
     // Your implementation goes here
     cout << "echo: " << str << endl;
-    Cache pageCache;
     _return = pageCache.search_page(str);
+    printf("Page sent to client\n");
     //printf (" Return of getContent is %d\n", i);
     //std::string s(body);
     //_return = s;

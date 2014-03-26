@@ -1,0 +1,249 @@
+ping
+echo: http://www.thehindu.com
+Fetched Content of URL: http://www.thehindu.com
+getContent successfully returned
+Step 1
+Size of Body: 133035
+page created successfully
+page added to Cache successfully
+Index in Cache is 0
+url is mapped to index
+Step 2
+Step 3
+Page sent to client
+ping
+echo: http://www.bbc.com/news/
+Fetched Content of URL: http://www.bbc.com/news/
+getContent successfully returned
+Step 1
+Size of Body: 169546
+page created successfully
+page added to Cache successfully
+Index in Cache is 1
+url is mapped to index
+Step 2
+Step 3
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Fetched Content of URL: http://www.theguardian.com/us
+getContent successfully returned
+Step 1
+Size of Body: 221745
+page created successfully
+page added to Cache successfully
+Index in Cache is 2
+url is mapped to index
+Step 2
+Step 3
+Page sent to client
+ping
+echo: http://www.forbes.com
+Fetched Content of URL: http://www.forbes.com
+getContent successfully returned
+Step 1
+Size of Body: 107890
+page created successfully
+page added to Cache successfully
+Index in Cache is 3
+url is mapped to index
+Step 2
+Step 3
+Page sent to client
+ping
+echo: http://www.forbes.com
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Page sent to client
+ping
+echo: http://www.bbc.com/news/
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Page sent to client
+ping
+echo: http://www.thehindu.com
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Fetched Content of URL: http://www.nytimes.com
+getContent successfully returned
+Step 1
+Size of Body: 198326
+page created successfully
+page added to Cache successfully
+Index in Cache is 4
+url is mapped to index
+Step 2
+Step 3
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Fetched Content of URL: http://www.telegraph.co.uk
+getContent successfully returned
+Step 1
+Size of Body: 174498
+page created successfully
+page added to Cache successfully
+Index in Cache is 5
+url is mapped to index
+Step 2
+Step 3
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Page sent to client
+ping
+echo: http://www.google.com
+Fetched Content of URL: http://www.google.com
+getContent successfully returned
+Step 1
+Size of Body: 65547
+page created successfully
+page added to Cache successfully
+Index in Cache is 6
+url is mapped to index
+Step 2
+Step 3
+Page sent to client
+ping
+echo: http://www.youtube.com
+Fetched Content of URL: http://www.youtube.com
+getContent successfully returned
+Step 1
+Size of Body: 223011
+page created successfully
+page added to Cache successfully
+Index in Cache is 7
+url is mapped to index
+Step 2
+Step 3
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Page sent to client
+ping
+echo: http://www.bbc.com/news/
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Fetched Content of URL: http://www.eenadu.net
+getContent successfully returned
+Step 1
+Size of Body: 170102
+page created successfully
+page added to Cache successfully
+Index in Cache is 8
+url is mapped to index
+Step 2
+Step 3
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Page sent to client
+ping
+echo: http://www.google.com
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Page sent to client
+ping
+echo: http://www.forbes.com
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Page sent to client
+ping
+echo: http://www.youtube.com
+Page sent to client
+ping
+echo: http://www.youtube.com
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Page sent to client
+ping
+echo: http://www.bbc.com/news/
+Page sent to client
+ping
+echo: http://www.youtube.com
+Page sent to client
+ping
+echo: http://www.bbc.com/news/
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Page sent to client
+ping
+echo: http://www.bbc.com/news/
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Page sent to client
+ping
+echo: http://www.google.com
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Page sent to client
+ping
+echo: http://www.forbes.com
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Page sent to client
+ping
+echo: http://www.thehindu.com
+Page sent to client
+ping
+echo: http://www.facebook.com
+Fetched Content of URL: http://www.facebook.com
+getContent successfully returned
+Step 1
+Size of Body: 6
+page created successfully
+page added to Cache successfully
+Index in Cache is 9
+url is mapped to index
+Step 2
+Step 3
+Page sent to client
+ping
+echo: http://www.thehindu.com
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Page sent to client
+ping
+echo: http://www.thehindu.com
+Page sent to client
+ping
+echo: http://www.facebook.com
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Page sent to client
+ping
+echo: http://www.facebook.com
