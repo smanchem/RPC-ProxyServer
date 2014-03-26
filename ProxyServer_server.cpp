@@ -23,6 +23,9 @@ using namespace  ::Test;
 
 using namespace std;
 
+/*
+Comment the following statement when Caching is not required.
+*/
 #define CACHING
 
 class ProxyServerHandler : virtual public ProxyServerIf {
@@ -53,6 +56,7 @@ class ProxyServerHandler : virtual public ProxyServerIf {
     std::string s(body);
     _return = s;
     free(body);
+    printf("Page sent to client\n");
     return;
   }
 
