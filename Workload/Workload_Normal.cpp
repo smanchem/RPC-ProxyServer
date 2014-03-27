@@ -41,6 +41,16 @@ int main()
 	if(s[i] == 7) cout<<"\nhttp://www.eenadu.net";
 	if(s[i] == 8) cout<<"\nhttp://www.forbes.com";
 	if(s[i] == 9) cout<<"\nhttp://www.facebook.com";
+	if(s[i] == 10) cout<<"\nhttp://www.time.com";
+	if(s[i] == 11) cout<<"\nhttp://www.cnn.com";
+	if(s[i] == 12) cout<<"\nhttp://www.nationalgeographic.com";
+	if(s[i] == 13) cout<<"\nhttp://www.dailymail.co.uk/ushome/index.html";
+	if(s[i] == 14) cout<<"\nhttp://www.washingtonpost.com";
+	if(s[i] == 15) cout<<"\nhttp://online.wsj.com";
+	if(s[i] == 16) cout<<"\nhttp://america.aljazeera.com";
+	if(s[i] == 17) cout<<"\nhttp://www.telegraph.co.uk";
+	if(s[i] == 18) cout<<"\nhttp://www.stanford.edu";
+	if(s[i] == 19) cout<<"\nhttp://www.cmu.edu";
   } 
   return 0;
 }
