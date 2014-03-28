@@ -1,0 +1,62 @@
+random_distribution:
+0-1: ****
+1-2: ******
+2-3: ****
+3-4: ***
+4-5: *******
+5-6: ********
+6-7: *****
+7-8: ****
+8-9: *****
+9-10: ****
+
+http://www.google.com
+http://www.telegraph.co.uk
+http://www.nytimes.com
+http://www.hindu.com
+http://www.telegraph.co.uk
+http://www.bbc.com/news
+http://www.forbes.com
+http://www.forbes.com
+http://www.facebook.com
+http://www.bbc.com/news
+http://www.forbes.com
+http://www.hindu.com
+http://www.theguardian.com/us
+http://www.bbc.com/news
+http://www.nytimes.com
+http://www.eenadu.net
+http://www.bbc.com/news
+http://www.telegraph.co.uk
+http://www.nytimes.com
+http://www.eenadu.net
+http://www.telegraph.co.uk
+http://www.facebook.com
+http://www.theguardian.com/us
+http://www.google.com
+http://www.theguardian.com/us
+http://www.nytimes.com
+http://www.eenadu.net
+http://www.forbes.com
+http://www.eenadu.net
+http://www.bbc.com/news
+http://www.facebook.com
+http://www.telegraph.co.uk
+http://www.forbes.com
+http://www.telegraph.co.uk
+http://www.telegraph.co.uk
+http://www.nytimes.com
+http://www.google.com
+http://www.hindu.com
+http://www.nytimes.com
+http://www.google.com
+http://www.bbc.com/news
+http://www.nytimes.com
+http://www.forbes.com
+http://www.telegraph.co.uk
+http://www.google.com
+http://www.forbes.com
+http://www.theguardian.com/us
+http://www.facebook.com
+http://www.hindu.com
+http://www.forbes.com
