@@ -10,11 +10,7 @@
 
 using namespace std;
 
-<<<<<<< HEAD
 #define MAX_CACHE_SIZE 4096*1024
-=======
-#define MAX_CACHE_SIZE 350*1024
->>>>>>> 46a5c7e8f8218e94d0ed6f96beb91601ab96b997
 
 /*
 PRP: 1 = FIFO, 2 = RANDOM, 3 = MAXS
@@ -26,13 +22,8 @@ Uncomment FIFO when PRP is 1
 Uncomment MAXS when PRP is 3
 */
 
-<<<<<<< HEAD
-// #define FIFO
- #define MAXS
-=======
 //#define FIFO
 //#define MAXS
->>>>>>> 46a5c7e8f8218e94d0ed6f96beb91601ab96b997
 
 class Page {
     public:
