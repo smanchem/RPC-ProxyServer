@@ -1,0 +1,264 @@
+ping
+echo: http://www.google.com
+Fetched Content of URL: http://www.google.com
+Number of Cache Misses: 1
+ Total Bytes Fetched from Web: 45434
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Fetched Content of URL: http://www.telegraph.co.uk
+Number of Cache Misses: 2
+ Total Bytes Fetched from Web: 219083
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Fetched Content of URL: http://www.nytimes.com
+Number of Cache Misses: 3
+ Total Bytes Fetched from Web: 428659
+Page sent to client
+ping
+echo: http://www.hindu.com
+Fetched Content of URL: http://www.hindu.com
+Number of Cache Misses: 4
+ Total Bytes Fetched from Web: 443483
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Fetched Content of URL: http://www.telegraph.co.uk
+Number of Cache Misses: 5
+ Total Bytes Fetched from Web: 617239
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Fetched Content of URL: http://www.bbc.com/news
+Number of Cache Misses: 6
+ Total Bytes Fetched from Web: 617761
+Page sent to client
+ping
+echo: http://www.forbes.com
+Fetched Content of URL: http://www.forbes.com
+Number of Cache Misses: 7
+ Total Bytes Fetched from Web: 724716
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 1
+ Byte Hits in Cache: 106955
+Page sent to client
+ping
+echo: http://www.facebook.com
+Fetched Content of URL: http://www.facebook.com
+Number of Cache Misses: 8
+ Total Bytes Fetched from Web: 724722
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Fetched Content of URL: http://www.bbc.com/news
+Number of Cache Misses: 9
+ Total Bytes Fetched from Web: 724956
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 2
+ Byte Hits in Cache: 213910
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 3
+ Byte Hits in Cache: 228734
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Fetched Content of URL: http://www.theguardian.com/us
+Number of Cache Misses: 10
+ Total Bytes Fetched from Web: 943164
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 4
+ Byte Hits in Cache: 228968
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Fetched Content of URL: http://www.nytimes.com
+Number of Cache Misses: 11
+ Total Bytes Fetched from Web: 1151505
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Fetched Content of URL: http://www.eenadu.net
+Number of Cache Misses: 12
+ Total Bytes Fetched from Web: 1332254
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 5
+ Byte Hits in Cache: 229202
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Fetched Content of URL: http://www.telegraph.co.uk
+Number of Cache Misses: 13
+ Total Bytes Fetched from Web: 1505903
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Number of Cache Hits: 6
+ Byte Hits in Cache: 437543
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 7
+ Byte Hits in Cache: 618292
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 8
+ Byte Hits in Cache: 791941
+Page sent to client
+ping
+echo: http://www.facebook.com
+Number of Cache Hits: 9
+ Byte Hits in Cache: 791947
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Fetched Content of URL: http://www.theguardian.com/us
+Number of Cache Misses: 14
+ Total Bytes Fetched from Web: 1724110
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 10
+ Byte Hits in Cache: 837381
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Number of Cache Hits: 11
+ Byte Hits in Cache: 1055588
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Number of Cache Hits: 12
+ Byte Hits in Cache: 1263929
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 13
+ Byte Hits in Cache: 1444678
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 14
+ Byte Hits in Cache: 1551633
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 15
+ Byte Hits in Cache: 1732382
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 16
+ Byte Hits in Cache: 1732616
+Page sent to client
+ping
+echo: http://www.facebook.com
+Number of Cache Hits: 17
+ Byte Hits in Cache: 1732622
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 18
+ Byte Hits in Cache: 1906271
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 19
+ Byte Hits in Cache: 2013226
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 20
+ Byte Hits in Cache: 2186875
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 21
+ Byte Hits in Cache: 2360524
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Number of Cache Hits: 22
+ Byte Hits in Cache: 2568865
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 23
+ Byte Hits in Cache: 2614299
+Page sent to client
+ping
+echo: http://www.hindu.com
+Fetched Content of URL: http://www.hindu.com
+Number of Cache Misses: 15
+ Total Bytes Fetched from Web: 1740505
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Number of Cache Hits: 24
+ Byte Hits in Cache: 2822640
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 25
+ Byte Hits in Cache: 2868074
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 26
+ Byte Hits in Cache: 2868308
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Number of Cache Hits: 27
+ Byte Hits in Cache: 3076649
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 28
+ Byte Hits in Cache: 3183604
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 29
+ Byte Hits in Cache: 3357253
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 30
+ Byte Hits in Cache: 3402687
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 31
+ Byte Hits in Cache: 3509642
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Number of Cache Hits: 32
+ Byte Hits in Cache: 3727849
+Page sent to client
+ping
+echo: http://www.facebook.com
+Number of Cache Hits: 33
+ Byte Hits in Cache: 3727855
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 34
+ Byte Hits in Cache: 3744250
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 35
+ Byte Hits in Cache: 3851205

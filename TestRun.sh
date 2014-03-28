@@ -6,7 +6,7 @@
    value=0
    while read line
    do
-            ./proxyServer_client $line >> Workload_Random_output.txt
+            ./proxyServer_client $line >> Workload_Random_MAXS_550k.txt
             echo $line;
    done
    echo "****$line";

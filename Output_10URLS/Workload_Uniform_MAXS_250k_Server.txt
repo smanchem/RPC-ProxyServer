@@ -1,0 +1,258 @@
+ping
+echo: http://www.hindu.com
+Fetched Content of URL: http://www.hindu.com
+Number of Cache Misses: 1
+ Total Bytes Fetched from Web: 9076
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Fetched Content of URL: http://www.bbc.com/news
+Number of Cache Misses: 2
+ Total Bytes Fetched from Web: 9308
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Fetched Content of URL: http://www.eenadu.net
+Number of Cache Misses: 3
+ Total Bytes Fetched from Web: 190057
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Fetched Content of URL: http://www.nytimes.com
+Number of Cache Misses: 4
+ Total Bytes Fetched from Web: 398566
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Fetched Content of URL: http://www.telegraph.co.uk
+Number of Cache Misses: 5
+ Total Bytes Fetched from Web: 572207
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Fetched Content of URL: http://www.theguardian.com/us
+Number of Cache Misses: 6
+ Total Bytes Fetched from Web: 788062
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 1
+ Byte Hits in Cache: 9076
+Page sent to client
+ping
+echo: http://www.google.com
+Fetched Content of URL: http://www.google.com
+Number of Cache Misses: 7
+ Total Bytes Fetched from Web: 853608
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 2
+ Byte Hits in Cache: 74622
+Page sent to client
+ping
+echo: http://www.facebook.com
+Fetched Content of URL: http://www.facebook.com
+Number of Cache Misses: 8
+ Total Bytes Fetched from Web: 853614
+Page sent to client
+ping
+echo: http://www.forbes.com
+Fetched Content of URL: http://www.forbes.com
+Number of Cache Misses: 9
+ Total Bytes Fetched from Web: 960557
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 3
+ Byte Hits in Cache: 248263
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 4
+ Byte Hits in Cache: 355206
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 5
+ Byte Hits in Cache: 364282
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 6
+ Byte Hits in Cache: 373358
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 7
+ Byte Hits in Cache: 546999
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 8
+ Byte Hits in Cache: 612545
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 9
+ Byte Hits in Cache: 621621
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 10
+ Byte Hits in Cache: 728564
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 11
+ Byte Hits in Cache: 737640
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Number of Cache Hits: 12
+ Byte Hits in Cache: 946149
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 13
+ Byte Hits in Cache: 1011695
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 14
+ Byte Hits in Cache: 1185336
+Page sent to client
+ping
+echo: http://www.facebook.com
+Number of Cache Hits: 15
+ Byte Hits in Cache: 1185342
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 16
+ Byte Hits in Cache: 1292285
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 17
+ Byte Hits in Cache: 1465926
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 18
+ Byte Hits in Cache: 1475002
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 19
+ Byte Hits in Cache: 1540548
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Number of Cache Hits: 20
+ Byte Hits in Cache: 1749057
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 21
+ Byte Hits in Cache: 1929806
+Page sent to client
+ping
+echo: http://www.facebook.com
+Number of Cache Hits: 22
+ Byte Hits in Cache: 1929812
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 23
+ Byte Hits in Cache: 2110561
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Number of Cache Hits: 24
+ Byte Hits in Cache: 2326416
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 25
+ Byte Hits in Cache: 2335492
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 26
+ Byte Hits in Cache: 2516241
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 27
+ Byte Hits in Cache: 2623184
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 28
+ Byte Hits in Cache: 2688730
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 29
+ Byte Hits in Cache: 2869479
+Page sent to client
+ping
+echo: http://www.facebook.com
+Number of Cache Hits: 30
+ Byte Hits in Cache: 2869485
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 31
+ Byte Hits in Cache: 2976428
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Number of Cache Hits: 32
+ Byte Hits in Cache: 3192283
+Page sent to client
+ping
+echo: http://www.facebook.com
+Number of Cache Hits: 33
+ Byte Hits in Cache: 3192289
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 34
+ Byte Hits in Cache: 3373038
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 35
+ Byte Hits in Cache: 3553787
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 36
+ Byte Hits in Cache: 3619333
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 37
+ Byte Hits in Cache: 3628409
+Page sent to client
+ping
+echo: http://www.google.com
+Number of Cache Hits: 38
+ Byte Hits in Cache: 3693955
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 39
+ Byte Hits in Cache: 3800898
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Number of Cache Hits: 40
+ Byte Hits in Cache: 4016753
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Number of Cache Hits: 41
+ Byte Hits in Cache: 4225262

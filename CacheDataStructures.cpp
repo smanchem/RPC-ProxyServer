@@ -10,7 +10,7 @@
 
 using namespace std;
 
-#define MAX_CACHE_SIZE 250*1024
+#define MAX_CACHE_SIZE 4096*1024
 
 /*
 PRP: 1 = FIFO, 2 = RANDOM, 3 = MAXS
@@ -19,11 +19,11 @@ PRP: 1 = FIFO, 2 = RANDOM, 3 = MAXS
 
 /*
 Uncomment FIFO when PRP is 1
-Uncomment MAXS when PRP is 2
+Uncomment MAXS when PRP is 3
 */
 
 // #define FIFO
-// #define MAXS
+ #define MAXS
 
 class Page {
     public:
@@ -104,8 +104,8 @@ class Cache {
             /* Get list of indices of pages to be removed based on
                the Page Replacement Policy. */
             if (page.size_of_page > MAX_CACHE_SIZE) {
-                cout << "Cache Capacity insufficient. Cannot fetch WebPage" << endl;
-                exit(0);
+                cout << "Cache Capacity insufficient. Cannot cache WebPage" << endl;
+                return 0;
             }
             std::list<int> list_of_indices = pages_to_remove(PRP, page.size_of_page);
 // printf("Pages to remove determined successfully\n");
@@ -160,7 +160,7 @@ class Cache {
             body_str = getContent(url_str);
 // printf("getContent successfully returned\n");
             string body(body_str);
-// printf("Size of Body: %d\n", (int)body.size());
+printf("Size of Body: %d\n", (int)body.size());
             // Add Page to Cache and update Queue
             Page page(url, body, (int)body.size());
 // printf("page created successfully\n");
