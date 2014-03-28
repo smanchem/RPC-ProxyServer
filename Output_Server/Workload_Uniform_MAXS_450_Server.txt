@@ -1,0 +1,534 @@
+ping
+echo: http://www.hindu.com
+Fetched Content of URL: http://www.hindu.com
+Number of Cache Misses: 1
+ Total Bytes Fetched from Web: 9076
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Fetched Content of URL: http://www.theguardian.com/us
+Number of Cache Misses: 2
+ Total Bytes Fetched from Web: 227289
+Page sent to client
+ping
+echo: http://online.wsj.com
+Fetched Content of URL: http://online.wsj.com
+Number of Cache Misses: 3
+ Total Bytes Fetched from Web: 227592
+Page sent to client
+ping
+echo: http://www.facebook.com
+Fetched Content of URL: http://www.facebook.com
+Number of Cache Misses: 4
+ Total Bytes Fetched from Web: 227598
+Page sent to client
+ping
+echo: http://www.cnn.com
+Fetched Content of URL: http://www.cnn.com
+Number of Cache Misses: 5
+ Total Bytes Fetched from Web: 348002
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Fetched Content of URL: http://www.nytimes.com
+Number of Cache Misses: 6
+ Total Bytes Fetched from Web: 555869
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 1
+ Byte Hits in Cache: 9076
+Page sent to client
+ping
+echo: http://www.washingtonpost.com
+Fetched Content of URL: http://www.washingtonpost.com
+Number of Cache Misses: 7
+ Total Bytes Fetched from Web: 885983
+Page sent to client
+ping
+echo: http://www.washingtonpost.com
+Number of Cache Hits: 2
+ Byte Hits in Cache: 339190
+Page sent to client
+ping
+echo: http://www.cmu.edu
+Fetched Content of URL: http://www.cmu.edu
+Number of Cache Misses: 8
+ Total Bytes Fetched from Web: 886331
+Page sent to client
+ping
+echo: http://www.forbes.com
+Fetched Content of URL: http://www.forbes.com
+Number of Cache Misses: 9
+ Total Bytes Fetched from Web: 987457
+Page sent to client
+ping
+echo: http://www.time.com
+Fetched Content of URL: http://www.time.com
+Number of Cache Misses: 10
+ Total Bytes Fetched from Web: 987859
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Fetched Content of URL: http://www.telegraph.co.uk
+Number of Cache Misses: 11
+ Total Bytes Fetched from Web: 1162574
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 3
+ Byte Hits in Cache: 348266
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Fetched Content of URL: http://www.bbc.com/news
+Number of Cache Misses: 12
+ Total Bytes Fetched from Web: 1162806
+Page sent to client
+ping
+echo: http://www.cnn.com
+Fetched Content of URL: http://www.cnn.com
+Number of Cache Misses: 13
+ Total Bytes Fetched from Web: 1283210
+Page sent to client
+ping
+echo: http://www.washingtonpost.com
+Number of Cache Hits: 4
+ Byte Hits in Cache: 678380
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 5
+ Byte Hits in Cache: 687456
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 6
+ Byte Hits in Cache: 788582
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 7
+ Byte Hits in Cache: 788814
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 8
+ Byte Hits in Cache: 889940
+Page sent to client
+ping
+echo: http://www.washingtonpost.com
+Number of Cache Hits: 9
+ Byte Hits in Cache: 1220054
+Page sent to client
+ping
+echo: http://www.nationalgeographic.com
+Fetched Content of URL: http://www.nationalgeographic.com
+Number of Cache Misses: 14
+ Total Bytes Fetched from Web: 1289844
+Page sent to client
+ping
+echo: http://www.cmu.edu
+Number of Cache Hits: 10
+ Byte Hits in Cache: 1220402
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 11
+ Byte Hits in Cache: 1395117
+Page sent to client
+ping
+echo: http://www.cnn.com
+Number of Cache Hits: 12
+ Byte Hits in Cache: 1515521
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 13
+ Byte Hits in Cache: 1515753
+Page sent to client
+ping
+echo: http://www.dailymail.co.uk/ushome/index.html
+Fetched Content of URL: http://www.dailymail.co.uk/ushome/index.html
+Cache Capacity insufficient. Cannot cache WebPage
+Number of Cache Misses: 15
+ Total Bytes Fetched from Web: 1849811
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 14
+ Byte Hits in Cache: 1616879
+Page sent to client
+ping
+echo: http://www.washingtonpost.com
+Number of Cache Hits: 15
+ Byte Hits in Cache: 1946993
+Page sent to client
+ping
+echo: http://www.cmu.edu
+Number of Cache Hits: 16
+ Byte Hits in Cache: 1947341
+Page sent to client
+ping
+echo: http://america.aljazeera.com
+Fetched Content of URL: http://america.aljazeera.com
+Number of Cache Misses: 16
+ Total Bytes Fetched from Web: 2004961
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 17
+ Byte Hits in Cache: 2122056
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 18
+ Byte Hits in Cache: 2131132
+Page sent to client
+ping
+echo: http://online.wsj.com
+Number of Cache Hits: 19
+ Byte Hits in Cache: 2131435
+Page sent to client
+ping
+echo: http://www.google.com
+Fetched Content of URL: http://www.google.com
+Number of Cache Misses: 17
+ Total Bytes Fetched from Web: 2050459
+Page sent to client
+ping
+echo: http://www.dailymail.co.uk/ushome/index.html
+Fetched Content of URL: http://www.dailymail.co.uk/ushome/index.html
+Cache Capacity insufficient. Cannot cache WebPage
+Number of Cache Misses: 18
+ Total Bytes Fetched from Web: 2610424
+Page sent to client
+ping
+echo: http://online.wsj.com
+Number of Cache Hits: 20
+ Byte Hits in Cache: 2131738
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 21
+ Byte Hits in Cache: 2140814
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Fetched Content of URL: http://www.eenadu.net
+Number of Cache Misses: 19
+ Total Bytes Fetched from Web: 2872579
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 22
+ Byte Hits in Cache: 2315529
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 23
+ Byte Hits in Cache: 2324605
+Page sent to client
+ping
+echo: http://online.wsj.com
+Number of Cache Hits: 24
+ Byte Hits in Cache: 2324908
+Page sent to client
+ping
+echo: http://online.wsj.com
+Number of Cache Hits: 25
+ Byte Hits in Cache: 2325211
+Page sent to client
+ping
+echo: http://www.dailymail.co.uk/ushome/index.html
+Fetched Content of URL: http://www.dailymail.co.uk/ushome/index.html
+Cache Capacity insufficient. Cannot cache WebPage
+Number of Cache Misses: 20
+ Total Bytes Fetched from Web: 3432546
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 26
+ Byte Hits in Cache: 2325443
+Page sent to client
+ping
+echo: http://www.dailymail.co.uk/ushome/index.html
+Fetched Content of URL: http://www.dailymail.co.uk/ushome/index.html
+Cache Capacity insufficient. Cannot cache WebPage
+Number of Cache Misses: 21
+ Total Bytes Fetched from Web: 3994001
+Page sent to client
+ping
+echo: http://www.stanford.edu
+Fetched Content of URL: http://www.stanford.edu
+Number of Cache Misses: 22
+ Total Bytes Fetched from Web: 4026780
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 27
+ Byte Hits in Cache: 2500158
+Page sent to client
+ping
+echo: http://www.facebook.com
+Number of Cache Hits: 28
+ Byte Hits in Cache: 2500164
+Page sent to client
+ping
+echo: http://america.aljazeera.com
+Number of Cache Hits: 29
+ Byte Hits in Cache: 2655314
+Page sent to client
+ping
+echo: http://www.time.com
+Number of Cache Hits: 30
+ Byte Hits in Cache: 2655716
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Fetched Content of URL: http://www.nytimes.com
+Number of Cache Misses: 23
+ Total Bytes Fetched from Web: 4288935
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 31
+ Byte Hits in Cache: 2830431
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 32
+ Byte Hits in Cache: 3092586
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 33
+ Byte Hits in Cache: 3193712
+Page sent to client
+ping
+echo: http://www.time.com
+Number of Cache Hits: 34
+ Byte Hits in Cache: 3194114
+Page sent to client
+ping
+echo: http://www.stanford.edu
+Fetched Content of URL: http://www.stanford.edu
+Number of Cache Misses: 24
+ Total Bytes Fetched from Web: 4319903
+Page sent to client
+ping
+echo: http://www.cmu.edu
+Fetched Content of URL: http://www.cmu.edu
+Number of Cache Misses: 25
+ Total Bytes Fetched from Web: 4320251
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 35
+ Byte Hits in Cache: 3194346
+Page sent to client
+ping
+echo: http://www.stanford.edu
+Number of Cache Hits: 36
+ Byte Hits in Cache: 3225314
+Page sent to client
+ping
+echo: http://www.time.com
+Number of Cache Hits: 37
+ Byte Hits in Cache: 3225716
+Page sent to client
+ping
+echo: http://www.time.com
+Number of Cache Hits: 38
+ Byte Hits in Cache: 3226118
+Page sent to client
+ping
+echo: http://www.google.com
+Fetched Content of URL: http://www.google.com
+Number of Cache Misses: 26
+ Total Bytes Fetched from Web: 4365687
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 39
+ Byte Hits in Cache: 3235194
+Page sent to client
+ping
+echo: http://www.time.com
+Number of Cache Hits: 40
+ Byte Hits in Cache: 3235596
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 41
+ Byte Hits in Cache: 3410311
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 42
+ Byte Hits in Cache: 3410543
+Page sent to client
+ping
+echo: http://www.cmu.edu
+Number of Cache Hits: 43
+ Byte Hits in Cache: 3410891
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 44
+ Byte Hits in Cache: 3411123
+Page sent to client
+ping
+echo: http://www.time.com
+Number of Cache Hits: 45
+ Byte Hits in Cache: 3411525
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 46
+ Byte Hits in Cache: 3512651
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 47
+ Byte Hits in Cache: 3687366
+Page sent to client
+ping
+echo: http://www.cmu.edu
+Number of Cache Hits: 48
+ Byte Hits in Cache: 3687714
+Page sent to client
+ping
+echo: http://www.cnn.com
+Number of Cache Hits: 49
+ Byte Hits in Cache: 3808118
+Page sent to client
+ping
+echo: http://www.facebook.com
+Number of Cache Hits: 50
+ Byte Hits in Cache: 3808124
+Page sent to client
+ping
+echo: http://www.cmu.edu
+Number of Cache Hits: 51
+ Byte Hits in Cache: 3808472
+Page sent to client
+ping
+echo: http://www.bbc.com/news
+Number of Cache Hits: 52
+ Byte Hits in Cache: 3808704
+Page sent to client
+ping
+echo: http://online.wsj.com
+Number of Cache Hits: 53
+ Byte Hits in Cache: 3809007
+Page sent to client
+ping
+echo: http://america.aljazeera.com
+Number of Cache Hits: 54
+ Byte Hits in Cache: 3964157
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 55
+ Byte Hits in Cache: 4138872
+Page sent to client
+ping
+echo: http://www.theguardian.com/us
+Fetched Content of URL: http://www.theguardian.com/us
+Number of Cache Misses: 27
+ Total Bytes Fetched from Web: 4583891
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 56
+ Byte Hits in Cache: 4147948
+Page sent to client
+ping
+echo: http://www.washingtonpost.com
+Number of Cache Hits: 57
+ Byte Hits in Cache: 4478062
+Page sent to client
+ping
+echo: http://www.stanford.edu
+Number of Cache Hits: 58
+ Byte Hits in Cache: 4509030
+Page sent to client
+ping
+echo: http://www.dailymail.co.uk/ushome/index.html
+Fetched Content of URL: http://www.dailymail.co.uk/ushome/index.html
+Cache Capacity insufficient. Cannot cache WebPage
+Number of Cache Misses: 28
+ Total Bytes Fetched from Web: 5143858
+Page sent to client
+ping
+echo: http://online.wsj.com
+Number of Cache Hits: 59
+ Byte Hits in Cache: 4509333
+Page sent to client
+ping
+echo: http://online.wsj.com
+Number of Cache Hits: 60
+ Byte Hits in Cache: 4509636
+Page sent to client
+ping
+echo: http://www.hindu.com
+Number of Cache Hits: 61
+ Byte Hits in Cache: 4518712
+Page sent to client
+ping
+echo: http://www.stanford.edu
+Number of Cache Hits: 62
+ Byte Hits in Cache: 4549680
+Page sent to client
+ping
+echo: http://www.nytimes.com
+Number of Cache Hits: 63
+ Byte Hits in Cache: 4811835
+Page sent to client
+ping
+echo: http://www.google.com
+Fetched Content of URL: http://www.google.com
+Number of Cache Misses: 29
+ Total Bytes Fetched from Web: 5209405
+Page sent to client
+ping
+echo: http://www.eenadu.net
+Number of Cache Hits: 64
+ Byte Hits in Cache: 5073990
+Page sent to client
+ping
+echo: http://www.time.com
+Number of Cache Hits: 65
+ Byte Hits in Cache: 5074392
+Page sent to client
+ping
+echo: http://www.nationalgeographic.com
+Fetched Content of URL: http://www.nationalgeographic.com
+Number of Cache Misses: 30
+ Total Bytes Fetched from Web: 5217607
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 66
+ Byte Hits in Cache: 5249107
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 67
+ Byte Hits in Cache: 5350233
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 68
+ Byte Hits in Cache: 5524948
+Page sent to client
+ping
+echo: http://www.telegraph.co.uk
+Number of Cache Hits: 69
+ Byte Hits in Cache: 5699663
+Page sent to client
+ping
+echo: http://www.forbes.com
+Number of Cache Hits: 70
+ Byte Hits in Cache: 5800789
