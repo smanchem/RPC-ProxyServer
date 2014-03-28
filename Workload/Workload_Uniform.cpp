@@ -6,19 +6,19 @@ using namespace std;
 
 int main()
 {
-  const int nrolls=50;  // number of experiments
-  const int nstars=50;    // maximum number of stars to distribute
+  const int nrolls=100;  // number of experiments
+  const int nstars=100;    // maximum number of stars to distribute
 
   default_random_engine generator;
-  uniform_int_distribution<int> distribution(0,9);
+  uniform_int_distribution<int> distribution(0,17);
   
-  int p[10]={};
-  int s[50]={};
+  int p[18]={};
+  int s[100]={};
   int j=0;
 
   for (int i=0; i<nrolls; ++i) {
     double number = distribution(generator);
-    if ((number>=0.0)&&(number<10.0)){
+    if ((number>=0.0)&&(number<18.0)){
 	++p[int(number)];
 	s[i] = number;
     }
@@ -26,11 +26,11 @@ int main()
 
   std::cout << "uniform_distribution (0,9):" << std::endl;
 
-  for (int i=0; i<10; ++i) {
+  for (int i=0; i<18; ++i) {
     std::cout << i << "-" << (i+1) << ": ";
     std::cout << std::string(p[i]*nstars/nrolls,'*') << std::endl;
   }
-  for(int i=0; i<50;i++){
+  for(int i=0; i<100;i++){
 	if(s[i] == 0) cout<<"\nhttp://www.hindu.com";
 	if(s[i] == 1) cout<<"\nhttp://www.bbc.com/news";
 	if(s[i] == 2) cout<<"\nhttp://www.theguardian.com/us";
@@ -39,8 +39,16 @@ int main()
 	if(s[i] == 5) cout<<"\nhttp://www.telegraph.co.uk";
 	if(s[i] == 6) cout<<"\nhttp://www.google.com";
 	if(s[i] == 7) cout<<"\nhttp://www.eenadu.net";
-	if(s[i] == 8) cout<<"\nhttp://www.forbes.com";
-	if(s[i] == 9) cout<<"\nhttp://www.facebook.com";
+	if(s[i] == 8) cout<<"\nhttp://www.facebook.com";
+	if(s[i] == 9) cout<<"\nhttp://www.time.com";
+	if(s[i] == 10) cout<<"\nhttp://www.cnn.com";
+	if(s[i] == 11) cout<<"\nhttp://www.nationalgeographic.com";
+	if(s[i] == 12) cout<<"\nhttp://www.dailymail.co.uk/ushome/index.html";
+	if(s[i] == 13) cout<<"\nhttp://www.washingtonpost.com";
+	if(s[i] == 14) cout<<"\nhttp://online.wsj.com";
+	if(s[i] == 15) cout<<"\nhttp://america.aljazeera.com";
+	if(s[i] == 16) cout<<"\nhttp://www.stanford.edu";
+	if(s[i] == 17) cout<<"\nhttp://www.cmu.edu";
   } 
   return 0;
 }
